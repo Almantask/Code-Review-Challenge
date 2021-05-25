@@ -10,7 +10,7 @@ namespace TaxtesCalculatorApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class TaxesController : ControllerBase, ITaxesController
     {
 
         [HttpGet("{taxType}")]
